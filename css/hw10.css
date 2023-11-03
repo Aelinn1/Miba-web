@@ -1,0 +1,19 @@
+
+h2{
+    margin-top: 5px;
+   
+    margin-bottom: 35px;
+}
+.float-right{
+  float: right;  
+}
+.readmore{
+    text-decoration: none;
+    color: aliceblue;
+}
+a:hover{
+    color: black;
+}
+.card-body{
+    padding: 10px;
+}

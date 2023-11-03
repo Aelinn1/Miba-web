@@ -1,0 +1,32 @@
+.nav-item:hover .nav-link{
+    color: #FF5903;
+    
+} 
+
+.fashion{
+    text-decoration: none;
+    color: black;
+    
+}
+
+.nav-link:hover{
+    border-bottom: darkblue ;
+    position: fixed;
+    
+    text-decoration: underline;
+}
+.navbar-toggler[aria-expanded=true] .navbar-toggler-icon:before {
+    transform: rotate(45deg)
+}
+
+.navbar-toggler[aria-expanded=true] .navbar-toggler-icon:after {
+    transform: rotate(-45deg)
+}
+
+.navbar-toggler-icon{
+    text-transform: none;
+    text-shadow: none;
+}
+.nav-link{
+    margin-left: 30px;
+}

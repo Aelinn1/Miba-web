@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="accordion" id="myaccordion">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button" data-bs-target="#vision" data-bs-toggle="collapse" >
+                                Vision
+                            </button>
+                        </h2>
+                        <div class="accordion-collapse collapse " id="vision" data-bs-parent="#myaccordion">
+                            <div class="accordion-body">
+                                <h2>Vision</h2>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum placeat, cumque quam assumenda officiis laborum et
+                                    ullam, autem doloremque labore aperiam recusandae reiciendis est, iste atque rerum repellat nostrum neque!</p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button" data-bs-target="#mission" data-bs-toggle="collapse">
+                                Mission
+                            </button>
+                        </h2>
+                        <div class="accordion-collapse collapse " id="mission" data-bs-parent="#myaccordion">
+                            <div class="accordion-body">
+                                <h2>Mission</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum harum aperiam atque. Aspernatur beatae nesciunt
+                                    alias facere, dignissimos, reprehenderit illo similique excepturi harum possimus sapiente eveniet sed modi porro
+                                    incidunt.</p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button" data-bs-target="#impossible" data-bs-toggle="collapse">
+                                Impossible
+                            </button>
+                        </h2>
+                        <div class="accordion-collapse collapse " id="impossible" data-bs-parent="#myaccordion"> 
+                            <div class="accordion-body">
+                                <h2>Impossible</h2>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo placeat voluptatem libero similique tenetur ducimus
+                                    ullam quod sapiente. Culpa fuga quia tempora cum ducimus quasi eius repellendus ea. Natus, qui!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <ul class="nav nav-tabs flex-column">
+                    <li class="nav-item">
+                        <a href="#tab1" class="nav-link active" data-bs-toggle="tab">Nav1</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#tab2" class="nav-link" data-bs-toggle="tab">Nav2</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#tab3" class="nav-link" data-bs-toggle="tab">Nav3</a>
+                    </li>
+                </ul>
+                <div class="tab-content">
+                    <div class="tab-pane fade show active" id="tab1">
+                        <h2>Nav1</h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit rem excepturi dolores totam. Voluptatum cumque aperiam eaque nesciunt ex aspernatur incidunt, perferendis, minima porro ipsum natus ut, alias nostrum distinctio.</p>
+                    </div>
+
+                    <div class="tab-pane fade show" id="tab2">
+                        <h2>Nav2</h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit rem excepturi dolores totam. Voluptatum cumque
+                            aperiam eaque nesciunt ex aspernatur incidunt, perferendis, minima porro ipsum natus ut, alias nostrum
+                            distinctio.</p>
+                    </div>
+
+                    <div class="tab-pane fade show" id="tab3">
+                        <h2>Nav3</h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit rem excepturi dolores totam. Voluptatum cumque
+                            aperiam eaque nesciunt ex aspernatur incidunt, perferendis, minima porro ipsum natus ut, alias nostrum
+                            distinctio.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-2">
+                <button class="btn btn-success" data-bs-target="#mymodal" data-bs-toggle="modal">Register</button>
+            </div>
+        </div>
+        <!--You don't need to write modal in the row of the buttom. You can write "modal" outside of the div!-->
+        <div class="modal" id="mymodal" data-bs-backdrop="static">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h2>Register</h2>
+                        <button class="btn btn-close" data-bs-dismiss="modal">
+
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci beatae deserunt eaque omnis natus velit cum et ab enim sunt, illum autem, doloribus consectetur delectus fuga ea. Quos, deserunt quisquam!</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-success" data-bs-dismiss="modal"></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="../js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

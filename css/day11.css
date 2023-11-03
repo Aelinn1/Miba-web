@@ -1,0 +1,31 @@
+body{
+    background-color: cadetblue;
+}
+p.title{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: bolder;
+    font-style: italic;
+    text-decoration: underline solid red;
+    color: rgb(255, 126, 225);
+}
+p.content{
+    text-transform: uppercase;
+    text-align: justify;
+    text-indent: 50px;
+    color: #EB6020;
+    background-color: rgba(5, 5, 5, 0.5);
+}
+.box{
+    height: 400px;
+    border: 2px solid black;
+    background: url(../image/download.png);
+    background-color: rgba(225, 147, 34, 0.8);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+}
+    /* background: linear-gradient(45deg,
+    #EB6020 0, #EB6020 25%,#A45280 25% ,#A45280 );
+

@@ -1,0 +1,6 @@
+.nav-item:hover{
+    background-color: brown;
+}
+.nav-item:hover .nav-link{
+    color: beige;
+}

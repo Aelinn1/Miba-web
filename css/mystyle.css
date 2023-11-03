@@ -1,0 +1,79 @@
+
+.div1{
+    background-color: red;
+    margin: 10px;
+    padding: 20px;
+    float: left;
+    width: 300px;
+    height: 500px;
+
+}
+.div2{
+    background-color: green;
+    float: left;
+    color: aliceblue;
+    padding: 20px;
+    margin: 10px 10px 10px 0;
+    width: 300px;
+    height: 500px;
+}
+.div3{
+    margin-top: 10px;
+    float: left;
+    border: 2px black solid;/*size, style, color*/
+    padding:20px;
+    width: 300px;
+    height: 500px;
+
+}
+.box{
+    clear: both;
+    
+   
+}
+
+.inner-box{
+    padding: 20px;
+}
+.div4{
+    background-color: aliceblue;
+    width: 3.7cm;
+    height: 3.7cm;
+    border: 1px black solid;
+    border-image: round;
+    text-align: center;
+    position: relative;
+    
+}
+.image-padding{
+   width: 10px;/*Make the image fill in the entire div4 width*/
+   height: 100px;/*Make the image fill in the entire div4 height*/
+    padding-top: 10px;
+    padding-bottom: 10px;
+    max-width: 100%;
+}
+.container-fluid{
+    
+    height: 100px;
+}
+h2{
+    padding: 10px;
+}
+.col-1{
+    font-size: small;
+}
+.img{
+    width: 120px;
+    height: 48px;
+    vertical-align: middle;
+    
+    
+}
+.search-box{
+    margin: 10px;
+    float: left;
+    box-sizing: border-box;
+}
+
+
+   

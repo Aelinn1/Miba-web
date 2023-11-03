@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <style>
+        *{
+           box-sizing: border-box; 
+        }
+        .menu a {
+            background-color: brown;
+            padding: 20px;
+            display: block;
+            margin: 7px;
+            color: black;
+            text-decoration: none;
+            text-align: center;
+        }
+        .menu{
+            float: left;
+            width: 20%;
+        }
+        .right{
+            float: left;
+            background-color: brown;
+            padding: 15px;
+            width: 20%;
+            margin-top: 7px;
+            
+        }
+        .main{
+            float: left;
+            width: 60%;
+            margin-top: 7px;
+        }
+        
+        @media only screen and (max-width: 620px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width: 100%;
+  }
+}
+#myslider{
+    margin: 10px 0;
+}
+    </style>
+    
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-success">
+            <div class="container">
+            <a href="" class="navbar-brand"><span class="navbar-text">Logo Design</span></a>
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a href="" class="nav-link"> Home </a></li>
+                    <li class="nav-item dropdown">
+                        <a href="" class="nav-link dropdown-toggle " data-bs-target="#product" data-bs-toggle="dropdown">
+                         Product 
+                        </a>
+                            <ul class="dropdown-menu" id="product">
+                                <li><a href="" class="dropdown-item">P1</a></li>
+                                <li><a href="" class="dropdown-item">P2</a></li>
+                            </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="" class="nav-link" data-bs-target="#service" data-bs-toggle="dropdown"> Service 
+                        </a> 
+                        <ul class="dropdown-menu" id="service">
+                            <li><a href="" class="dropdown-item">Service1</a></li>
+                            <li><a href="" class="dropdown-item">Service2</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a href="" class="nav-link"> Conduct Us </a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="carousel slide" id="myslider">
+            <div class="carousel-inner" >
+                <div class="carousel-item show active">
+                    <img src="../image/bhh_YourName_LIS _IG_2/j2131jungle.jpg" alt="" class="w-100 d-block" height="300px">
+                </div>
+                <div class="carousel-item">
+                    <img src="../image/bhh_YourName_LIS _IG_2/j2131bhh2.jpg" alt="" class="w-100 d-block" height="300px">
+                </div>
+               
+            </div>
+            <button class="carousel-control-prev" data-bs-target="#myslider" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon">
+                </span>
+            </button>
+            <button class="carousel-control-next" data-bs-target="#myslider" data-bs-slide="next">
+                <span class="carousel-control-next-icon">
+                </span>
+            </button>
+        </div>
+    </header>
+
+    <div style="overflow: auto;">
+        <div style="size: 100px; text-align: center; padding: 15px; background-color: brown;">
+            <h2>Hello world</h2>
+        </div>
+
+        <div class="menu">
+            <a href="#">link1</a>
+            <a href="#">link2</a>
+            <a href="#">link3</a>
+        </div>
+
+        <div class="main">
+            <h1>About</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, excepturi neque quae deserunt recusandae earum quam sit quas quibusdam repudiandae, magnam placeat at exercitationem nulla rerum consequatur sunt temporibus ipsum!</p>
+        </div>
+
+        <div class="right">
+            <h1>contact</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+    </div>
+    
+    
+        <div class="container">
+           <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header">Some</div>
+                    <div class="card-body">Some</div>
+                    <div class="card-footer d-flex justify-content-between">
+                        <a href="">read</a>
+                        <a href="">read</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6"></div>
+           </div>
+        </div>
+    
+
+    <script src="../js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
