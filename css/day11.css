@@ -6,7 +6,7 @@ p.title{
     font-size: 30px;
     font-weight: bolder;
     font-style: italic;
-    text-decoration: underline solid red;
+    text-decoration: underline solid rgb(0, 0, 0);
     color: rgb(255, 126, 225);
 }
 p.content{
@@ -18,9 +18,9 @@ p.content{
 }
 .box{
     height: 400px;
-    border: 2px solid black;
+    border: 2px solid rgb(3, 3, 3);
     background: url(../image/download.png);
-    background-color: rgba(225, 147, 34, 0.8);
+    background-color: rgba(47, 34, 225, 0.8);
     background-repeat: no-repeat;
     background-size: cover;
     
